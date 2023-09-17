@@ -1,0 +1,210 @@
+{
+    "data": {
+        "questions": [
+            {
+                "question": "Lorem Ipsum is simply dummy text of the printing and typesetting industry?",
+                "options": [
+                    "option 1",
+                    "option 2",
+                    "option 3",
+                    "option 4"
+                ]
+            },
+            {
+                "question": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book?",
+                "options": [
+                    "option 1",
+                    "option 2",
+                    "option 3",
+                    "option 4"
+                ]
+            },
+            {
+                "question": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged?",
+                "options": [
+                    "option 1",
+                    "option 2",
+                    "option 3",
+                    "option 4"
+                ]
+            },
+            {
+                "question": "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages?",
+                "options": [
+                    "option 1",
+                    "option 2",
+                    "option 3",
+                    "option 4"
+                ]
+            },
+            {
+                "question": "Recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum?",
+                "options": [
+                    "option 1",
+                    "option 2",
+                    "option 3",
+                    "option 4"
+                ]
+            },
+            {
+                "question": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old?",
+                "options": [
+                    "option 1",
+                    "option 2",
+                    "option 3",
+                    "option 4"
+                ]
+            },
+            {
+                "question": "Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia?",
+                "options": [
+                    "option 1",
+                    "option 2",
+                    "option 3",
+                    "option 4"
+                ]
+            }
+        ],
+        "attendExam": [
+            {
+                "name": "Qs 1",
+                "uv": 70,
+                "pv": 40,
+                "amt": 30
+            },
+            {
+                "name": "Qs 2",
+                "uv": 30,
+                "pv": 20,
+                "amt": 10
+            },
+            {
+                "name": "Qs 3",
+                "uv": 70,
+                "pv": 50,
+                "amt": 50
+            },
+            {
+                "name": "Qs 4",
+                "uv": 60,
+                "pv": 50,
+                "amt": 70
+            },
+            {
+                "name": "Qs 5",
+                "uv": 70,
+                "pv": 60,
+                "amt": 50
+            }
+        ],
+        "report": [
+            {
+                "title": "React Questions",
+                "totalQuestions": 100,
+                "totalAttendees": 300,
+                "averageCorrectAnswers": 50,
+                "viewAllAnswers": 90
+            },
+            {
+                "title": "Next Questions",
+                "totalQuestions": 90,
+                "totalAttendees": 200,
+                "averageCorrectAnswers": 50,
+                "viewAllAnswers": 70
+            },
+            {
+                "title": "Node Questions",
+                "totalQuestions": 100,
+                "totalAttendees": 300,
+                "averageCorrectAnswers": 50,
+                "viewAllAnswers": 90
+            },
+            {
+                "title": "Css Questions",
+                "totalQuestions": 90,
+                "totalAttendees": 200,
+                "averageCorrectAnswers": 50,
+                "viewAllAnswers": 70
+            },
+            {
+                "title": "HTML Questions",
+                "totalQuestions": 100,
+                "totalAttendees": 300,
+                "averageCorrectAnswers": 50,
+                "viewAllAnswers": 90
+            },
+            {
+                "title": "Redux Questions",
+                "totalQuestions": 90,
+                "totalAttendees": 200,
+                "averageCorrectAnswers": 50,
+                "viewAllAnswers": 70
+            },
+            {
+                "title": "Babel Questions",
+                "totalQuestions": 100,
+                "totalAttendees": 300,
+                "averageCorrectAnswers": 50,
+                "viewAllAnswers": 90
+            },
+            {
+                "title": "Vite Questions",
+                "totalQuestions": 700,
+                "totalAttendees": 400,
+                "averageCorrectAnswers": 50,
+                "viewAllAnswers": 90
+            }
+        ],
+        "profile": {
+            "username": "@ajith",
+            "fullname": "Ajithkumar",
+            "profilePicUrl": "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=260&h=260&dpr=2",
+            "location": "India",
+            "socialMediaLinks": [
+                "twitter",
+                "facebook",
+                "linkedin",
+                "whatsapp"
+            ],
+            "mobile": "9938193834"
+        },
+        "attendees": [
+            {
+                "name": "group 1",
+                "value": 1000
+            },
+            {
+                "name": "group 2",
+                "value": 500
+            },
+            {
+                "name": "group 3",
+                "value": 1200
+            },
+            {
+                "name": "group 4",
+                "value": 700
+            }
+        ],
+        "notifications": [
+            {
+                "fullname": "Rose",
+                "message": "Assigned you on the call with sara",
+                "profilePicUrl": "https://images.pexels.com/photos/1499327/pexels-photo-1499327.jpeg?auto=compress&cs=tinysrgb&w=260&h=260&dpr=2",
+                "messageAt": 1694816442607
+            },
+            {
+                "fullname": "Arun",
+                "message": "Assigned you on the call with sara",
+                "profilePicUrl": "https://images.pexels.com/photos/2589653/pexels-photo-2589653.jpeg?auto=compress&cs=tinysrgb&w=260&h=260&dpr=2",
+                "messageAt": 1699554600000
+            },
+            {
+                "fullname": "Sara",
+                "message": "Assigned you on the call with sara",
+                "profilePicUrl": "https://images.pexels.com/photos/1499327/pexels-photo-1499327.jpeg?auto=compress&cs=tinysrgb&w=260&h=260&dpr=2",
+                "messageAt": 1668018600000
+            }
+        ]
+    }
+}

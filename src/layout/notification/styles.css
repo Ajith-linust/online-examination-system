@@ -1,0 +1,19 @@
+.notification-wrap {
+    grid-template-areas: "image name" "image subName";
+}
+
+.notification-wrap > div {
+    grid-area: image;
+}
+
+.notification-wrap p {
+    grid-area: name;
+    margin: 0;
+    position: relative;
+}
+
+.notification-wrap small {
+    grid-area: subName;
+    font-size: 10px;
+    color: grey;
+}
