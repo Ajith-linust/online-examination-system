@@ -27,14 +27,6 @@ json-server --watch _db.json --port 4000
 npm run build && npm run preview
 ```
 
-## Third-Party Libraries
-
-The project utilizes the following third-party libraries to enhance its functionality:
-
-- React Router Dom: Enables client-side routing for seamless navigation within the application.
-- Leaflet and React-Leaflet: Provides tools for integrating interactive maps into the application.
-- React Redux and @reduxjs/toolkit: Facilitates global state management, allowing components to share and update data efficiently.
-
 ## Development Notes
 
 Here are some noteworthy details about the project's development:
