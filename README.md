@@ -25,7 +25,7 @@ npm install -g json-server
 ```js
 json-server --watch _db.json --port 4000
 ```
-- Run the Application: After successfully installing the packages, start the application using the following command:
+- To initiate the application after successful package installation, please execute the following commands. Ensure that you run this command in a new terminal tab
 ```js
 npm run build
 ```
