@@ -87,9 +87,9 @@ export default function AttendExam() {
                 >
                   <span
                     className={cx(
-                      "inline-block w-[10px] h-[10px] rounded-full border border-gray-400",
-                      answers[qsIndex]?.answer === data &&
-                        "border-blueCs border-[3px]"
+                      "inline-block w-[10px] h-[10px] rounded-full border",
+                      answers[qsIndex]?.answer === data ?
+                        "border-blueCs border-[3px]" : "border-gray-400"
                     )}
                   ></span>
                   <label className="pointer-events-none text-gray-500">

@@ -3,7 +3,11 @@
 const colors = require('tailwindcss/colors')
 
 export default {
-  content: ["./src/**/*.{html,js,ts,tsx}"],
+  content: [
+    "./dist/output.css",
+    "./index.html",
+    "./src/**/*.{html,js,ts,tsx}",
+  ],
   theme: {
     screens: {
       '2xl': {'max': '1535px'},

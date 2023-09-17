@@ -11,30 +11,14 @@ export const dashboardReducer = createSlice({
   initialState,
   reducers: {
     updateDashboardDetails: (state, action: PayloadAction<IRootState>) => {
-      return state = {
+      return (state = {
         ...state,
-        ...action.payload
-      };
-    },
-    updateNotification: (state, action: PayloadAction<IRootState>) => {
-      // state.loader = {
-      //   ...state.loader,
-      //   ...action.payload
-      // };
-    },
-    updateProfileOpen: (state, action: PayloadAction<{
-      users?: boolean;
-      personalInformation?: boolean;
-    }>) => {
-      // state.loader = {
-      //   ...state.loader,
-      //   ...action.payload
-      // };
+        ...action.payload,
+      });
     },
   },
 });
 
-export const { updateDashboardDetails, updateNotification, updateProfileOpen } =
-dashboardReducer.actions;
+export const { updateDashboardDetails } = dashboardReducer.actions;
 
 export default dashboardReducer.reducer;

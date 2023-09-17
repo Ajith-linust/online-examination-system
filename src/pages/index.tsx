@@ -44,10 +44,7 @@ function RoutePage() {
     try {
       // dynamic file import
       import("@reduxStore/reducer").then(async (req) => {
-        let url =
-          import.meta.env.MODE === "development"
-            ? import.meta.env.VITE_LOCAL_URL
-            : import.meta.env.VITE_PRODUCTION_PORT;
+        let url = "http://localhost:4000/data";
 
         /**
          * I don't use axios because we have only one API call.
