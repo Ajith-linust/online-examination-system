@@ -18,13 +18,19 @@ cd online-examination-system
 ```js
 npm install OR yarn
 ```
-- To access the mock data, please execute the following command:
+- To access the mock data, please execute the following commands:
+```js
+npm install -g json-server
+```
 ```js
 json-server --watch _db.json --port 4000
 ```
 - Run the Application: After successfully installing the packages, start the application using the following command:
 ```js
-npm run build && npm run preview
+npm run build
+```
+```js
+npm run preview
 ```
 
 ## Development Notes
